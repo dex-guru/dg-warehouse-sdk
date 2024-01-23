@@ -1,14 +1,3 @@
-# warehouse-sdk
-
-SDK for queries from https://warehouse.dex.guru/
-
-
-# Usage
-
-Please see [usage_example.py](usage_example.py)
-
-```python
-
 # Example of using of warehouse SDK to query Query results,
 # Here we are quering: https://warehouse.dex.guru/queries/56 (Networks Supported)
 
@@ -31,6 +20,3 @@ if __name__ == "__main__":
     print(f"Response for {query_name} with {query_name}")
     for key, value in response:
         print(f"{key}: {value}")
-
-
-```
