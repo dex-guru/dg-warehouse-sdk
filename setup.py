@@ -1,13 +1,19 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='DexGuru Warehouse SDK',
-    version='0.1',
-    packages=find_packages(exclude=['tests*']),
-    license='MIT License',
-    description='SDK for warehouse queries',
+    name='warehouse-sdk',
+    version='0.1.0',
+    author='Evgeny Vakhteev',
+    author_email='evgeny@dex.guru',
+    packages=find_packages(),
+    url='https://github.com/dex-guru/warehouse-sdk',
+    license='LICENSE.txt',
+    description='An SDK for interacting with a Guru Warehouse service.',
     long_description=open('README.md').read(),
-    install_requires=["pydantic", "requests"],
-    url='https://github.com/dex-guru/dg-warehouse-sdk',
-    author='DexGuru'
+    long_description_content_type='text/markdown',
+    install_requires=[
+        "requests>=2.25.1",
+        "pydantic>=1.8.2"
+        # Add other dependencies needed for your package
+    ],
 )
