@@ -8,8 +8,6 @@ Author-email: evgeny@dex.guru
 License: LICENSE.txt
 Description-Content-Type: text/markdown
 License-File: LICENSE
-Requires-Dist: requests>=2.25.1
-Requires-Dist: pydantic>=1.8.2
 
 # warehouse-sdk
 
